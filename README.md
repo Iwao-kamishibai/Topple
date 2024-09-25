@@ -51,15 +51,17 @@ x: Longest dimension.
 
 6.) Upload: Upload the CSV to the Topple app and enjoy your statistical analysis..
 
-Data Example:
+**Data Example:**
 
-Nr.	x	y	z
-1	0.30	0.20	0.20
-2	0.40	0.40	0.15
-3	0.25	0.20	0.15
-4	0.25	0.20	0.15
-5	0.50	0.30	0.25
-----------------------------------------
+| Nr. | x    | y    | z    |
+|-----|------|------|------|
+| 1   | 0.30 | 0.20 | 0.20 |
+| 2   | 0.40 | 0.40 | 0.15 |
+| 3   | 0.25 | 0.20 | 0.15 |
+| 4   | 0.25 | 0.20 | 0.15 |
+| 5   | 0.50 | 0.30 | 0.25 |
+
+----------------------------
 
 Run the Docker Container
 

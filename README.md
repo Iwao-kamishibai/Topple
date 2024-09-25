@@ -59,3 +59,28 @@ Nr.	x	y	z
 3	0.25	0.20	0.15
 4	0.25	0.20	0.15
 5	0.50	0.30	0.25
+----------------------------------------
+
+Run the Docker Container
+
+1.) Pull the Topple Docker Image:
+
+Use the following command to pull the Topple app Docker image from Docker Hub:
+
+docker pull kamishibai/topple
+
+2.) Set Container to Run on Port 3838: The container will run on localhost, using port 3838. Ensure the port mapping is correctly set up.
+
+3.) Configure Restart Policy and Detached Mode: Set the restart policy to Always to ensure the container restarts automatically if it stops. Run the container in detached mode to keep it running in the background.
+
+4.) Run the Container: Start the container with the following command:
+
+docker run -d -p 3838:3838 --restart always topple/topple-app
+
+5.) Access the Topple App After starting the container, access the app in your browser at:
+
+http://localhost:3838/topple⁠
+
+
+
+Rock on!
